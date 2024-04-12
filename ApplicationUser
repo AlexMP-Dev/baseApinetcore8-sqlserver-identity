@@ -1,0 +1,15 @@
+using Microsoft.AspNetCore.Identity;
+
+namespace Data
+{
+    public class ApplicationUser : IdentityUser
+    {
+        public string ProfileImage { get; set; } = string.Empty;
+        public bool Activo { get; set; } = true;
+        public bool Suspended { get; set; } = false;
+        public DateTime Birthdate { get; set; }
+        public bool BaseDataComplete { get; set; } = false;
+        public string Names { get; set; } = string.Empty;
+        public string LastNames { get; set; } = string.Empty;
+    }
+}
