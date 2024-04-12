@@ -1,4 +1,4 @@
-añadir esto en el archivo csproj
+1. añadir esto en el archivo csproj
 ```
 <ItemGroup>
   <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
@@ -15,3 +15,11 @@ añadir esto en el archivo csproj
   <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
 </ItemGroup>
 ```
+2. construir el proyect
+3. en la consola de administracion de paquetes correr los siguientes comandos
+   ```
+   Add-Migration First
+   Update-Database
+   ```
+4. verifica la creacion de la base de datos
+5. disfruta😉
