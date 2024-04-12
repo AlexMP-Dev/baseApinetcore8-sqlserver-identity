@@ -1,5 +1,5 @@
 añadir esto en el archivo csproj
-
+```
 <ItemGroup>
   <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
   <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.4" />
@@ -14,3 +14,4 @@ añadir esto en el archivo csproj
   <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.1" />
   <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.1" />
 </ItemGroup>
+```
